@@ -15,11 +15,24 @@ const LoginPage = () => {
 
                 <div className='login-form'>
                     <form>
-                        <div className='username'><input className='username-input' type="text" placeholder='username/email'/></div>
-                        <div className='password'><input className='password-input' type="text" placeholder='password'/></div>
-                        <div className='login-btn'><button className='btn'>login</button></div>
-                        <div className='remember'><span className='remember-me'>remember me</span></div>
-                        <div className='forget'><button className='forget-password'>forget password</button></div>
+                        <div className='username'>
+                            <input className='username-input' type="text" placeholder='username/email' />
+                        </div>
+                        <div className='password'>
+                            <input className='password-input' type="text" placeholder='password' />
+                        </div>
+                        <div className='login-btn'>
+                            <button className='btn'>login</button>
+                        </div>
+                        <div className='remember-forget'>
+                            <div className='remember'>
+                                <input className='checkbox' type="checkbox" /><button className='remember-me '>remember me</button>
+                            </div>
+                            <div className='forget'>
+                                <button className='forget-password'>forget password</button>
+                            </div>
+                        </div>
+
                     </form>
                 </div>
 
