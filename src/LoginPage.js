@@ -1,6 +1,7 @@
 import './LoginPage.css'
 import React from 'react'
 import logo from './logo.svg'
+import {Link} from 'react-router-dom'
 const LoginPage = () => {
     return (
         <div className='login-page'>
@@ -11,7 +12,7 @@ const LoginPage = () => {
             <div className='login'>
 
                 <div className='logo'><img src={logo} alt="" /></div>
-                <div className='welcome'><h1>welcome back</h1></div>
+                <div className='welcome'><h1>Welcome back</h1></div>
 
                 <div className='login-form'>
                     <form>
@@ -26,10 +27,13 @@ const LoginPage = () => {
                         </div>
                         <div className='remember-forget'>
                             <div className='remember'>
-                                <input className='checkbox' type="checkbox" /><button className='remember-me '>remember me</button>
+                                <input className='checkbox' type="checkbox" />
+                                <Link className='remember-me' to='/rememberme' >remember me</Link>
                             </div>
                             <div className='forget'>
-                                <button className='forget-password'>forget password</button>
+                                {/* <button className='forget-password'>forget password</button> */}
+                                <Link className='forget-password' to='/forgetpassword' >forget password</Link>
+
                             </div>
                         </div>
 
