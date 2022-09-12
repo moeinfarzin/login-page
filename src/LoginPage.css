@@ -1,8 +1,7 @@
 body {
     font-size: 30px;
-
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .login-page {
@@ -13,10 +12,11 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 
 .logo-container {
-    background-image:url('./background.jpg') ;
-    background-size: 100%;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
-    flex : 1;
+    flex: 1;
     font-size: 0.7em;
     display: flex;
     justify-content: center;
@@ -30,36 +30,37 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     width: 70%;
     margin: auto;
     margin-bottom: 40px;
-    
+
 }
 
 
 
-.login{
-    
+.login {
+
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: auto;
 }
 
-.login-form{
+.login-form {
     display: flex;
     justify-content: center;
-    
+
 }
 
 
-.username-input , .password-input{
-width: 300px;
-height: 35px;
-border:solid 1px #cb86c9 ;
-border-radius: 4px;
+.username-input,
+.password-input {
+    width: 300px;
+    height: 35px;
+    border: solid 1px #cb86c9;
+    border-radius: 4px;
 }
 
-.btn{
+.btn {
     width: 100%;
     color: aliceblue;
     background-color: blueviolet;
@@ -70,51 +71,50 @@ border-radius: 4px;
 }
 
 
-.welcome{
+.welcome {
     font-size: 0.8em;
 }
 
 
-.remember-forget{
-    margin-top: 5px ;
+.remember-forget {
+    margin-top: 5px;
     display: flex;
-    
+
 }
 
-.remember{
+.remember {
     display: flex;
-    flex:1;
+    flex: 1;
     justify-content: flex-start;
 }
 
-.forget-password{
+.forget-password {
     display: flex;
-    flex:1;
+    flex: 1;
     justify-content: flex-end;
 }
 
-.remember-me{
+.remember-me {
     text-decoration: none;
     font-size: 1rem;
     color: #111;
-    border: 5px #fff solid ;
+    border: 5px #fff solid;
     border-radius: 10px;
     cursor: pointer;
 
-    
+
 }
 
-.forget-password{
+.forget-password {
     font-size: 1rem;
     color: #111;
-    border: 5px #fff solid ;
+    border: 5px #fff solid;
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
 
 }
 
-.checkbox{
+.checkbox {
     cursor: pointer;
 }
-
