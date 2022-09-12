@@ -27,8 +27,8 @@ const LoginPage = () => {
                         </div>
                         <div className='remember-forget'>
                             <div className='remember'>
-                                <input className='checkbox' type="checkbox" />
-                                <label className='remember-me' For="checkbox">Remember me</label>
+                                <input className='checkbox' id='checkbox' type="checkbox" />
+                                <label className='remember-me' htmlFor='checkbox'>Remember me</label>
                             </div>
                             <div className='forget'>
                                 {/* <button className='forget-password'>forget password</button> */}
