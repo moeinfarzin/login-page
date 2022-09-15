@@ -31,7 +31,7 @@ body {
     width: 70%;
     margin: auto;
     margin-bottom: 40px;
-    
+
 }
 
 
@@ -53,9 +53,8 @@ body {
     font-size: 2rem;
     min-width: 200px;
 
-
-
 }
+
 
 
 .username-input,
@@ -123,4 +122,17 @@ body {
 
 .checkbox {
     cursor: pointer;
+}
+
+
+@media(max-width:600px) {
+
+    .login-page {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+        font: 0.8rem;
+    }
+
 }
