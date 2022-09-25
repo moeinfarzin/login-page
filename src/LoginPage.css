@@ -130,9 +130,21 @@ body {
     .login-page {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 2rem;
+        margin-top: 3rem;
         font-size: 0.8rem;
         font: 0.8rem;
     }
+
+    .logo-container {
+        margin-top: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    .login{
+        margin-bottom: 0.8rem;
+    }
+
 
 }
