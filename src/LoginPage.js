@@ -4,7 +4,7 @@ import logo from './logo.svg'
 import { Link } from 'react-router-dom'
 
 const LoginPage = () => {
-    document.title="login";
+    // document.title="login";
     return (
         <>
 
