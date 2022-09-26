@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123.085" height="56.078" viewBox="0 0 123.085 56.078">
+    <defs>
+        <linearGradient id="d1e6y7zyna" x1=".203" x2=".97" y1=".636" y2=".95" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#851f9a"/>
+            <stop offset=".301" stop-color="#7d1b7d"/>
+            <stop offset="1" stop-color="#3f0e3f"/>
+        </linearGradient>
+        <linearGradient id="muwfzihkwb" x1=".306" x2="1" y1=".519" y2=".972" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#70164a"/>
+            <stop offset=".326" stop-color="#74185c"/>
+            <stop offset="1" stop-color="#74185c"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g>
+            <path fill="url(#d1e6y7zyna)" d="M52.023 51.8h-6.791 6.791l-6.31-10.239h-.036L31.22 17.262 16.313 42.321h23.07l5.844 9.466H0L31.22 0l31.22 51.787H52.018v.007z" transform="translate(-850.704 -198) translate(850.704 200.075)"/>
+            <path fill="url(#muwfzihkwb)" d="M35.6 51.928L15.417 18.8l-.139.191-9.26 16.029L0 24.943 14.835.039l.007-.023h.006L14.859 0l.007.017L49.22.006 14.868.031l20.109 33.18L55.2 0h11.438L35.6 51.928z" transform="translate(-850.704 -198) translate(850.704 200.075) translate(56.448)"/>
+        </g>
+        <path fill="none" d="M0 0H122.671V56.078H0z" transform="translate(-850.704 -198) translate(850.912 198)"/>
+    </g>
+</svg>
