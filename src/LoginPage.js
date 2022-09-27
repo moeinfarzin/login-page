@@ -1,16 +1,12 @@
 import './LoginPage.css'
 import React from 'react'
 import logo from './logo.svg'
-import { Link } from 'react-router-dom'
 
 const LoginPage = () => {
-    // document.title="login";
     return (
-        <>
-
         <div className='login-page'>
             <div className='logo-container'>
-                <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe voluptatum sapiente minus suscipit atque.</p></div>
+                <div className='text'><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
             </div>
 
             <div className='login'>
@@ -21,10 +17,10 @@ const LoginPage = () => {
                 <div className='login-form'>
                     <form>
                         <div className='username'>
-                            <input className='username-input' type="text" placeholder='Username/Email' />
+                            <input className='username-input' type="text" placeholder='Username/Email *' />
                         </div>
                         <div className='password'>
-                            <input className='password-input' type="text" placeholder='Password' />
+                            <input className='password-input' type="text" placeholder='Password *' />
                         </div>
                         <div className='login-btn'>
                             <button className='btn'>Login</button>
@@ -35,8 +31,8 @@ const LoginPage = () => {
                                 <label className='remember-me' htmlFor='checkbox'>Remember me</label>
                             </div>
                             <div className='forget'>
-                                {/* <button className='forget-password'>forget password</button> */}
-                                <Link className='forget-password' to='/forgetpassword' >forget password</Link>
+                                <a className='forget-password' href='forgetpassword'>forget password?</a>
+                                
 
                             </div>
                         </div>
@@ -47,7 +43,6 @@ const LoginPage = () => {
             </div>
 
         </div>
-        </>
     )
 }
 export default LoginPage

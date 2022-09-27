@@ -2,6 +2,15 @@ body {
     font-size: 16px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(234deg, #f6f7ff 83%, #fdfafc 50%, #fdfafc 0%, #fdfafc 0%);
+
+}
+h1{
+    font-weight: 300 ;
+}
+
+.text{
+    font-size: 0.8rem;
 }
 
 .login-page {
@@ -48,10 +57,12 @@ body {
 }
 
 .login-form {
+    text-align: center;
     display: flex;
     justify-content: center;
     font-size: 2rem;
     min-width: 200px;
+    /* max-width: 80%; */
 
 }
 
@@ -59,16 +70,50 @@ body {
 
 .username-input,
 .password-input {
-    width: 300px;
+    padding-left: 7%;
+
+    width: 410px;
     height: 35px;
     border: solid 1px #cb86c9;
     border-radius: 4px;
+    font-family: 'Poppins', sans-serif;     
+    font-weight: 500;
+}
+
+.username{
+    position:relative;
+}
+.username::before{
+    content: "";
+    background-image: url('./Profile.svg');
+    width: 17px;
+    height: 21px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    top: 23px;
+    left: 10px;
+}
+.password{
+    position: relative;
+}
+.password::before{
+    width: 17px;
+    height: 22px;
+    content: "";
+    background-image: url('./Lock.svg');
+    background-size:12px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 23px;
+    left: 10px;
 }
 
 .btn {
-    width: 100%;
+
+    width: 450px;
     color: aliceblue;
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, #851f9a 1%, #801d87 40%, #7c1b7a 68%, #74185c);      
     height: 35px;
     border: none;
     border-radius: 4px;
@@ -97,13 +142,19 @@ body {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    background: transparent;
+    border: transparent;
+    text-shadow: none;
+    box-shadow: none;
+
 }
 
 .remember-me {
     text-decoration: none;
+    font-weight: 500;
     font-size: 1rem;
     color: #111;
-    border: 5px #fff solid;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
 
@@ -122,10 +173,13 @@ body {
 
 .checkbox {
     cursor: pointer;
+    margin-bottom: 15px;
+    border: none;
+
 }
 
 
-@media(max-width:600px) {
+@media(max-width:700px) {
 
     .login-page {
         display: flex;
