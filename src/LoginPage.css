@@ -5,11 +5,12 @@ body {
     background-image: linear-gradient(234deg, #f6f7ff 83%, #fdfafc 50%, #fdfafc 0%, #fdfafc 0%);
 
 }
-h1{
-    font-weight: 300 ;
+
+h1 {
+    font-weight: 300;
 }
 
-.text{
+.text {
     font-size: 0.8rem;
 }
 
@@ -24,7 +25,6 @@ h1{
     background-image: url('./background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     flex: 1;
     font-size: 0.7em;
     display: flex;
@@ -53,7 +53,6 @@ h1{
     justify-content: center;
     text-align: center;
     margin: auto;
-    min-width: max-content;
 }
 
 .login-form {
@@ -61,8 +60,8 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    min-width: 200px;
-    /* max-width: 80%; */
+    margin: 8px;
+
 
 }
 
@@ -76,14 +75,15 @@ h1{
     height: 35px;
     border: solid 1px #cb86c9;
     border-radius: 4px;
-    font-family: 'Poppins', sans-serif;     
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.username{
-    position:relative;
+.username {
+    position: relative;
 }
-.username::before{
+
+.username::before {
     content: "";
     background-image: url('./Profile.svg');
     width: 17px;
@@ -94,15 +94,17 @@ h1{
     top: 23px;
     left: 10px;
 }
-.password{
+
+.password {
     position: relative;
 }
-.password::before{
+
+.password::before {
     width: 17px;
     height: 22px;
     content: "";
     background-image: url('./Lock.svg');
-    background-size:12px;
+    background-size: 12px;
     position: absolute;
     background-repeat: no-repeat;
     top: 23px;
@@ -113,7 +115,7 @@ h1{
 
     width: 450px;
     color: aliceblue;
-    background-image: linear-gradient(to right, #851f9a 1%, #801d87 40%, #7c1b7a 68%, #74185c);      
+    background-image: linear-gradient(to right, #851f9a 1%, #801d87 40%, #7c1b7a 68%, #74185c);
     height: 35px;
     border: none;
     border-radius: 4px;
@@ -196,7 +198,8 @@ h1{
     p {
         font-size: 0.9rem;
     }
-    .login{
+
+    .login {
         margin-bottom: 0.8rem;
     }
 
