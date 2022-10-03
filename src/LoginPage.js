@@ -1,4 +1,4 @@
-import './LoginPage.css'
+import './LoginPage.scss'
 import React from 'react'
 import logo from './logo.svg'
 

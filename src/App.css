@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100&display=swap');
 #root , body , html , .app {
     height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+*{
+    
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(234deg, #f6f7ff 83%, #fdfafc 50%, #fdfafc 0%, #fdfafc 0%);
+
 }
